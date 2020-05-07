@@ -4,7 +4,7 @@
 }
 .first_slide{
     height:100vh;
-    background-image: url('../images/backgr1.png');
+    background-image: url('../images/344416.jpg');
     background-size: cover;
 }
 .first_slide .header{
@@ -34,7 +34,7 @@
 }
 .main-content .header-center{
         font-size: 32px;
-        font-family: "PlayfairDisplay";
+        font-family: "Roboto";
         color: rgb(255, 255, 255); 
         text-align: center; 
         margin-bottom: 25px;
@@ -54,7 +54,7 @@
         display:flex;
         padding:10px 15px;
         border-radius: 2px;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
 }
 .main-content .button a{
     font-size: 16px;
@@ -175,7 +175,7 @@ h4{
 }
 .purpleline3{
     height:715px;
-    background-image: url('../images/backgr3.png');
+    background-image: url('../images/312793.jpg');
     background-size: cover;
 }
 .header3{
@@ -294,11 +294,7 @@ text-decoration: none;
 padding:0px;
 margin:0px;
 }
-.purple_line4{
-    height: 500px;
-    background-image: url('../images/purple4.png');
-    background-size:cover;
-}
+
 .content_line{
     height:500px;
 }
@@ -307,66 +303,15 @@ margin:0px;
         font-family: "PlayfairDisplay";
         color: rgba(255, 255, 255, 0.851);     
 }
-.text4 p{
-    text-align: center;
-}
-.name_person4 h5{
-        font-size: 14px;
-        font-family: "Roboto";
-        color: rgb(255, 255, 255); 
-        font-weight: bold;  
-        text-align: center;
-}
-.name_person4 p{
-        font-size: 13px;
-        font-family: "Roboto";
-        color: rgba(255, 255, 255, 0.702);  
-        text-align: center;  
-}
-.slider_person{
-    width:400px;
-    height:50px;
-} 
-.slider_person .carousel-item{
-    border-radius: 50%;
-    width:35px;
-    height:35px;
-}
-.slider_person .carousel-indicators .active{
-    width:50px;
-    height:50px;
-}
+
 .white4{
     height:650px;
 }
 .columndiffer{
 height:550px;
 }
-.white4 h3{
-        font-size: 22px;
-        font-family: "PlayfairDisplay";
-        color: rgb(65, 61, 75); 
-}
-.white4 .button{
-    border:1px solid rgb(0, 224, 208) ;
-    display:flex;
-    padding:10px 30px;
-    border-radius: 2px;
-    align-self: flex-start;
-}
-.white4  .button a{
-font-size: 16px;
-font-family: Roboto;
-color: rgb(0, 224, 208);
-text-align: center;
-}
-.white4  .button a:hover{
-text-decoration: none;
-}
 
-.header4{
-    height:80px;
-}
+
 .hed2{
     margin-right: 60px;
 }
@@ -383,7 +328,7 @@ text-decoration: none;
 }
 footer{
     height:400px;
-    background-image: url('../images/lastpurple.png');
+    background-image: url('../images/312793.jpg');
     background-size:cover;
 }
 .form-group, .footer_last{
@@ -429,7 +374,6 @@ i{
  font-size: 25px;
  color:white ;
  border:0.3px solid white;
- border-radius:50%;  
  padding:10px; 
 }
 .links{
@@ -472,12 +416,12 @@ background: rgb(235, 228, 228);
     height:400px;
 }
 .btn{
-    background-color: black;
+    background-color:#e5e5e5;
     color:white;
     margin-left: 10px;
 }
 .btn:hover{
-    background-color: black;
+    background-color:lightgray;
     color:white;
 }
 form .form-control, form .btn{
@@ -544,4 +488,22 @@ i{
 }
 .email-enter{
     margin-bottom: 15px;
+}
+.logo a i{
+    border-radius:0;
+}
+.carousel-item p{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.carousel-indicators{
+    bottom: -75%;
+}
+.big_logo img{
+    width: 250px;
+}
+.blocks_part{
+    background-color:#f0eeee;
 }
