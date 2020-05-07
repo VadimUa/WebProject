@@ -1,0 +1,547 @@
+.container{
+    width: 960px;
+    margin:0 auto;
+}
+.first_slide{
+    height:100vh;
+    background-image: url('../images/backgr1.png');
+    background-size: cover;
+}
+.first_slide .header{
+    height: 80px;
+}
+.logo a{
+    margin-left: 10px;
+}
+.menu a:last-of-type{
+    margin-right: 10px;
+}
+.menu a{
+        font-size: 13px;
+        font-family: "Roboto";
+        color: white;  
+}
+.menu a:hover{
+    color: rgb(0, 224, 208);
+    text-decoration: none;
+}
+.main-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 300px;
+}
+.main-content .header-center{
+        font-size: 32px;
+        font-family: "PlayfairDisplay";
+        color: rgb(255, 255, 255); 
+        text-align: center; 
+        margin-bottom: 25px;
+        display:flex;
+}
+.main-content .title{
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-bottom: 55px;
+        display:flex;
+}
+.main-content .button{
+        border:1px solid rgb(0, 224, 208) ;
+        border-radius:1px;
+        display:flex;
+        padding:10px 15px;
+        border-radius: 2px;
+        margin-bottom: 200px;
+}
+.main-content .button a{
+    font-size: 16px;
+    font-family: Roboto;
+    color: rgb(0, 224, 208);
+    text-align: center;
+}
+.main-content .button a:hover{
+    text-decoration: none;
+}
+.line{
+    margin-bottom: 25px;
+}
+.carousel-indicators li{
+    border-radius: 50%;
+    width:10px;
+    height:10px;
+}
+.carousel-indicators .active{
+    background-color: #00e0d0;
+}
+.white_line{
+height:405px;
+}
+.head{
+        font-size: 22px;
+        font-family: "PlayfairDisplay";
+        color: rgb(65, 61, 75);
+        font-weight: bold;
+        line-height: 1.2;  
+        margin-bottom: 35px;    
+}
+.first_part, .second_part{
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgba(65, 61, 75, 0.749);  
+        margin-bottom: 35px;  
+}
+.big_logo{
+    padding:70px 100px 95px 80px;
+}
+.description_forbig{
+    margin-right: 10px;
+}
+.description_forbig .button{
+        border:1px solid rgb(0, 224, 208) ;
+        display:inline-flex;
+        padding:10px 15px;
+        border-radius: 2px;
+}
+.description_forbig .button a{
+    font-size: 16px;
+    font-family: Roboto;
+    color: rgb(0, 224, 208);
+    text-align: center;
+}
+.description_forbig .button a:hover{
+    text-decoration: none;
+}
+.watch_video{
+    height:550px;
+    background-image: url('../images/backgr2.png');
+    background-size: cover;
+}
+.icon{
+    margin-bottom: 35px;
+}
+.text_icon{
+        font-size: 16px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);     
+}
+.content{
+    height:550px;
+}
+.white_line2{
+    height:755px;
+}
+.header_white{
+    height:140px;
+}
+.header_white h3{
+        font-size: 22px;
+        font-family: "PlayfairDisplay";
+        color: rgb(65, 61, 75);
+        font-weight: bold;
+}
+.header_white p{
+        font-size: 14px;
+        font-family: "Myriad Pro";
+        color: rgba(47, 45, 53, 0.749);    
+}
+.header_logo{
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(65, 61, 75);     
+}
+.text_logo{
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgba(51, 51, 51, 0.749);    
+}
+.white_line2 img{
+    margin-bottom: 40px;
+}
+.block1,.block2,.block3,.block4,.block5,.block6{
+    height:260px;
+}
+.blocks_part{
+    height:620px;
+}
+h4{
+    font-size:14px;
+    font-weight: bold;
+}
+.text_logo p{
+    text-align:center;
+}
+.purpleline3{
+    height:715px;
+    background-image: url('../images/backgr3.png');
+    background-size: cover;
+}
+.header3{
+    padding-top: 65px;
+    margin-bottom: 40px;
+}
+.header3 h3{
+        font-size: 22px;
+        font-family: "PlayfairDisplay";
+        color: rgb(255, 255, 255);
+        font-weight: bold;   
+}
+.header3 p{
+        font-size: 14px;
+        font-family: "PlayfairDisplay";
+        color: rgb(249, 249, 249);     
+}
+.block_wwhite{
+    height:310px;
+}
+.white_square{
+    height: 225px;
+    background-color: white;
+}
+.block_wwhite h5{
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);   
+}
+.block_wwhite p{
+        font-size: 13px;
+        font-family: "Roboto";
+        color: rgba(250, 250, 250, 0.702);  
+        font-weight: 200; 
+}
+.text_white{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 80px;
+    border: 2px solid #7a778f;
+    border-top:none;
+}
+.text_white h5{
+    padding-top:10px;
+}
+.footer_purple3{
+    height:215px;
+}
+.footer_purple3 p{
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(243, 243, 243);
+}
+.footer_purple3 .button{
+    border:1px solid rgb(0, 224, 208) ;
+    display:flex;
+    padding:10px 15px;
+    border-radius: 2px;
+}
+.footer_purple3 .button a{
+font-size: 16px;
+font-family: Roboto;
+color: rgb(0, 224, 208);
+text-align: center;
+}
+.footer_purple3 .button a:hover{
+text-decoration: none;
+}
+.white_line3{
+    height:740px;
+}
+.white_header3{
+    height:160px;
+}
+.white_header3 h3{
+        font-size: 22px;
+        font-family: "PlayfairDisplay";
+        color: rgb(65, 61, 75); 
+        font-weight: bold;   
+}
+.white_header3 a{
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(65, 61, 75);   
+}
+.our_works{
+    height: 400px;
+}
+.our_work1, .our_work3, .our_work5, .our_work8, .our_work10, .our_work12{
+    background-color: #9180809f;
+}
+.our_work2, .our_work4, .our_work6, .our_work7, .our_work9, .our_work11{
+    background-color: rgb(218, 175, 175);
+}
+.footer_white3{
+    height:180px;
+}
+.footer_white3 .button{
+    border:1px solid rgb(0, 224, 208) ;
+    display:flex;
+    padding:10px 15px;
+    border-radius: 2px;
+}
+.footer_white3 .button a{
+font-size: 16px;
+font-family: Roboto;
+color: rgb(0, 224, 208);
+text-align: center;
+}
+.footer_white3 .button a:hover{
+text-decoration: none;
+}
+.our_works{
+padding:0px;
+margin:0px;
+}
+.purple_line4{
+    height: 500px;
+    background-image: url('../images/purple4.png');
+    background-size:cover;
+}
+.content_line{
+    height:500px;
+}
+.znak h2, .text4 p, .name_person4 p{
+        font-size: 16px;
+        font-family: "PlayfairDisplay";
+        color: rgba(255, 255, 255, 0.851);     
+}
+.text4 p{
+    text-align: center;
+}
+.name_person4 h5{
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255); 
+        font-weight: bold;  
+        text-align: center;
+}
+.name_person4 p{
+        font-size: 13px;
+        font-family: "Roboto";
+        color: rgba(255, 255, 255, 0.702);  
+        text-align: center;  
+}
+.slider_person{
+    width:400px;
+    height:50px;
+} 
+.slider_person .carousel-item{
+    border-radius: 50%;
+    width:35px;
+    height:35px;
+}
+.slider_person .carousel-indicators .active{
+    width:50px;
+    height:50px;
+}
+.white4{
+    height:650px;
+}
+.columndiffer{
+height:550px;
+}
+.white4 h3{
+        font-size: 22px;
+        font-family: "PlayfairDisplay";
+        color: rgb(65, 61, 75); 
+}
+.white4 .button{
+    border:1px solid rgb(0, 224, 208) ;
+    display:flex;
+    padding:10px 30px;
+    border-radius: 2px;
+    align-self: flex-start;
+}
+.white4  .button a{
+font-size: 16px;
+font-family: Roboto;
+color: rgb(0, 224, 208);
+text-align: center;
+}
+.white4  .button a:hover{
+text-decoration: none;
+}
+
+.header4{
+    height:80px;
+}
+.hed2{
+    margin-right: 60px;
+}
+.column2{
+    height: 410px;
+    width:380px;
+    margin-top:45px;
+}
+.column2 .column1-1, .column2 .column1-2{
+    height: 410px;
+}
+.column2 .column1-1{
+    margin-right: 75px;
+}
+footer{
+    height:400px;
+    background-image: url('../images/lastpurple.png');
+    background-size:cover;
+}
+.form-group, .footer_last{
+    padding:0;
+    margin:0;
+}
+.footer-col1 p, .footer-col1 p{
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);    
+}
+.footer-col2 h3, .footer-col3 h3{
+        font-size: 15px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        font-weight:bold;  
+}
+.footer_last{
+    height:300px;
+}
+.center_footer{
+    height: 400px;
+}
+.footer_last a img{
+    margin-right: 15px;
+}
+.footer_last a{
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);   
+}
+.footer_last a:hover{
+    text-decoration: none;
+}
+.footer-col2 a{
+    margin-top: 20px;
+}
+.footer-col3{
+    padding: 0;
+    margin: 0;
+}
+i{
+ font-size: 25px;
+ color:white ;
+ border:0.3px solid white;
+ border-radius:50%;  
+ padding:10px; 
+}
+.links{
+    width:300px;
+}
+.form-control{
+    border-radius:0;
+    
+}
+.btn-primary {
+    color: #fff;
+    background-color:#a39bb6;
+    border-color: none;
+    width:70px;
+    border-radius:0;
+}
+.last_line{
+    height:150px;
+} 
+.footer-col1 a{
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);     
+}
+.footer-col3 p{
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);  
+        margin-bottom: 0;  
+}
+.container{
+    width:1000px;
+    margin:0 auto;
+}
+.section-1{
+height:400px;
+background: rgb(235, 228, 228);
+}
+.content-1{
+    height:400px;
+}
+.btn{
+    background-color: black;
+    color:white;
+    margin-left: 10px;
+}
+.btn:hover{
+    background-color: black;
+    color:white;
+}
+form .form-control, form .btn{
+    border-radius:0;
+    outline: 0;
+}
+.content-1-head{
+    margin-bottom: 15px;
+}
+.title{
+    margin-top: 20px;
+    color:rgb(185, 179, 179);
+    font-size:11px;
+}
+.section-2{
+    height:500px;
+}
+.header-center{
+    margin:50px;
+}
+.main-form{
+height:250px;
+}
+.support{
+    height:60px;
+    margin-bottom: 45px;
+}
+.support-icon{
+    background:black;
+}
+.bg-icon{
+    height:40px;
+    width: 40px;
+    background: black;
+    margin-right: 10px;
+    border-radius: 5px;
+    transform: rotate(45deg);
+}
+.contacts{
+    height:60px;
+}
+i{
+    color:white;
+}
+.fa-phone{
+    transform: rotate(415deg);
+}
+.fa-map-marker-alt{
+    transform: rotate(315deg);
+}
+.fa-envelope-square{
+    transform: rotate(315deg);
+}
+.divide{
+    width:25px;
+    background: white;
+}
+.vert-divide{
+    height:35px;
+    background: white;
+}
+.titile-2{
+    color:grey;
+}
+.email-enter{
+    margin-bottom: 15px;
+}
