@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <script defer src="./bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
     <script defer src="./bootstrap-4.4.1-dist/js/jquery-3.3.1.js"></script>
     <script defer src="./bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script defer src="./scripts/script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Beck Web</title>
@@ -28,6 +28,7 @@
                         <a href="">WORKS</a>
                         <a href="">PEOPLE SAY</a>
                         <a href="">CONTACT</a>
+                        <a href="">LOGIN</a>
                 </div>
             </div>
         </div>
@@ -44,6 +45,7 @@
                     <div class="button">
                             <a href="#">LEARN MORE</a>
                     </div>
+                    
             </div>
         </div>
         <div class="container">
@@ -75,7 +77,8 @@
     </div>
     <main>
           <div class="container">
-            <div class="white_line d-flex flex-row justify-content-between align-items-center">
+            <div class="white_line d-flex flex-column justify-content-between align-items-center">
+              <div class="top__part d-flex flex-row justify-content-between align-items-center">
               <div class="big_logo">
                 <a href="#"><img src="./images/artage-io-thumb-ddcf92d96fbd7b1f973775a64696a3f5.png" alt=""></a>
               </div>
@@ -92,6 +95,33 @@
                 <div class="button"><a href="#">LEARN MORE</a></div>
               </div>
             </div>
+              <div class="bottom__data ">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="expertise-tab" data-toggle="tab" href="#expertise" role="tab" aria-controls="expertise" aria-selected="false">Expertise</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="people-tab" data-toggle="tab" href="#people" role="tab" aria-controls="people" aria-selected="false">People Say</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><p class="tabData">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corporis, tempora molestiae obcaecati iusto distinctio. Dolores iure, vero blanditiis, atque libero deserunt fuga voluptates praesentium eius nesciunt at nostrum ducimus voluptas sit, numquam iusto facere?</p></div>
+            <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab"><p class="tabData">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corporis, tempora molestiae obcaecati iusto distinctio. </p></div>
+            <div class="tab-pane fade" id="expertise" role="tabpanel" aria-labelledby="expertise-tab"><p class="tabData">distinctio. Dolores iure, vero blanditiis, atque libero deserunt fuga voluptates praesentium eius nesciunt at nostrum ducimus voluptas sit, numquam iusto facere?</p></div>
+            <div class="tab-pane fade" id="people" role="tabpanel" aria-labelledby="people-tab"><p class="tabData">voluptates praesentium eius nesciunt at nostrum ducimus voluptas sit, numquam iusto facere?</p></div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"><p class="tabData">Lorem ipsum dolor sit amet consectetur adipisicing elit. nostrum ducimus voluptas sit, numquam iusto facere?</p></div>
+          </div>
+        </div>
+        </div>
           </div>
         
        
@@ -110,12 +140,18 @@
                 <h5>Lorem, ipsum dolor.</h5>
                 <p>Lorem, ipsum dolor.</p>
               </div>
+              <div class="watch_closure">
+                <a href="#" class="watch_closure_text">Watch</a>
+              </div>
             </div>
               <div class="block_wwhite col-xl-3">
                 <div class="white_square"></div>
                 <div class="text_white">
                 <h5>Lorem, ipsum dolor.</h5>
                   <p>Lorem, ipsum dolor.</p>
+                </div>
+                <div class="watch_closure">
+                  <a href="#" class="watch_closure_text">Watch</a>
                 </div>
               </div>
               <div class="block_wwhite col-xl-3"
@@ -124,12 +160,18 @@
               <h5>Lorem, ipsum dolor.</h5>
               <p>Lorem, ipsum dolor.</p>
             </div>
+            <div class="watch_closure">
+              <a href="#" class="watch_closure_text">Watch</a>
+            </div>
             </div>
               <div class="block_wwhite col-xl-3">
                 <div class="white_square"></div>
                 <div class="text_white">
                 <h5>Lorem, ipsum dolor.</h5>
                 <p>Lorem, ipsum dolor.</p>
+              </div>
+              <div class="watch_closure">
+                <a href="#" class="watch_closure_text">Watch</a>
               </div>
               </div>
             </div>
@@ -158,6 +200,17 @@
         </div>
       </div>
     </main>
+    <div class="container container_map">
+      <div class="map_tracking d-flex flex-column justify-content-around align-items-center">
+        <div class="pretty__map_nure">
+        <iframe class="map__nure" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2155.901800989474!2d36.22718385342402!3d50.01484583459902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a1243f9e69d1%3A0x6daed05394f03251!2z0KXQsNGA0YzQutC-0LLRgdC60LjQuSDQvdCw0YbQuNC-0L3QsNC70YzQvdGL0Lkg0YPQvdC40LLQtdGA0YHQuNGC0LXRgiDRgNCw0LTQuNC-0Y3Qu9C10LrRgtGA0L7QvdC40LrQuA!5e0!3m2!1sru!2sua!4v1589497545526!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="map__nure_overlay d-flex justify-content-center align-items-center">
+          <p class="map__nure_overlay_text">Find Us</p>
+        </div>
+      </div>
+        <p class="map_nure_text">Lets Keep in touch</p>
+      </div>
+    </div>
     <footer>
       <div class="container">
         <div class="center_footer d-flex flex-row justify-content-between align-items-center">
