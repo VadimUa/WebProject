@@ -11,114 +11,147 @@
     <script defer src="./scripts/script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="./scripts/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     <title>Beck Web</title>
 </head>
 <body>
-    <div class="first_slide">
+    <div class="first_slide wow animate__fadeInDown" data-wow-duration="1.5s">
         <div class="container">
             <div class="header row justify-content-between align-items-center">          
                 <div class="logo ">
-                    <a href="#"><i class="fab fa-artstation"></i></a>
+                    <a href="#"><i class="fas fa-wave-square wow animate__fadeInLeft" data-wow-duration="3s"></i></a>
                 </div>
                 <div class="menu">
-                        <a href="">HOME</a>
-                        <a href="">ABOUT</a>
-                        <a href="">EXPERTISE</a>
-                        <a href="">TEAMS</a>
-                        <a href="">WORKS</a>
-                        <a href="">PEOPLE SAY</a>
-                        <a href="">CONTACT</a>
-                        <a href="./html/form.html">LOGIN</a>
+                        
+                        <a href="http://res.nure.ua/ru/o-nas">О Кафедре</a>
+                        <a href="http://res.nure.ua/ru/novosti">Новости</a>
+                        <a href="http://res.nure.ua/ru/kontakty">Контакты</a>
+                        
                 </div>
             </div>
         </div>
         
         <div class="container">
             <div class="main-content column justify-content-between">
-                    <div class="header-center">
-                        Build equipment for rent
+                    <div class="header-center header-text wow animate__fadeInDown" data-wow-duration="3.5s" >
+                        Что вы знаете о цифровых сигналах?
+                    </div>
+                    <div class="main-content-title">
+                      Цифровой сигнал — сигнал, который можно представить в виде последовательности дискретных (цифровых) значений. Чтобы ознакомится более подробно нажмите на кнопку внизу
                     </div>
                     <div class="line"><img src="./images/green-line.png" alt=""></div>
-                    <div class="title">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut perspiciatis libero ea eius cumque rerum, itaque, facilis molestias consequuntur asperiores quos? Vitae eaque nam tempora corporis incidunt enim iure, esse recusandae cumque pariatur sint dolores cupiditate ipsa atque. Esse laudantium perferendis, repellendus, eum magni dolor soluta ab quia quis dignissimos harum odio ea rem culpa nihil perspiciatis velit earum dolores placeat nam nemo ad sit.
-                    </div>
-                    <div class="button">
-                            <a href="#">LEARN MORE</a>
+                    
+                    <div class="button wow animate__pulse buttondown" data-wow-duration="3.5s">
+                            <a href="#">Узнать больше <i class="fas fa-arrow-down"></i></a>
                     </div>
                     
             </div>
         </div>
-        <div class="container">
-            <div class="slider">
-                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia vel quaerat, rem labore, doloribus minus eligendi animi dolores ratione nesciunt reprehenderit, dolorem id sequi vero. Nulla,</p>
-                      </div>
-                      <div class="carousel-item">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia vel quaerat, rem labore, doloribus minus eligendi animi dolores ratione nesciunt reprehenderit, dolorem id sequi vero. Nulla,dfgfgdgfdg</p>
-                      </div>
-                      <div class="carousel-item">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia vel quaerat, rem labore, doloribus minus eligendi animi dolores ratione nesciunt,</p>
-                      </div>
-                      <div class="carousel-item">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia vel quaerat, rem labore, doloribus minus eligendi animi dolores ratione nesciunt reprehenderit, dolorem id sequi vero. Nulla,Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-        </div>
+        
     </div>
     <main>
-          <div class="container">
+          <div class="container wow animate__fadeInLeft" data-wow-duration="1.5s">
             <div class="white_line d-flex flex-column justify-content-between align-items-center">
               <div class="top__part d-flex flex-row justify-content-between align-items-center">
               <div class="big_logo">
-                <a href="#"><img src="./images/artage-io-thumb-ddcf92d96fbd7b1f973775a64696a3f5.png" alt=""></a>
+                <a href="#"><img src="./images/signvert.jpg" alt=""></a>
               </div>
               <div class="description_forbig">
                 <div class="head">
-                  <p>OUR STORY</p>
+                  <p style='font-family: Arial, Helvetica, sans-serif; padding: 10px;'>История Появления</p>
                 </div>
                 <div class="first_part">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem voluptatum suscipit nobis sit? Dolores ab corporis repellendus minima fugit ipsa.</p>
+                    <p>Цифровой обработкой сигналов принято называть в вычислительной технике арифметическую обработку последовательностей равноотстоящих во времени отсчетов. Под цифровой обработкой понимают также обработку одномерных и многомерных массивов данных.
+                      </p>
                 </div>
                 <div class="second_part">
-                  <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                  <p>Первые вычислительные машины были созданы в 40-х годах прошлого столетия для решения задач криптографии, баллистики, ядерной физики, практического построения систем противовоздушной обороны. Системы и методы цифровой обработки также разрабатывались в оборонных отраслях в первую очередь для решения задач радиолокации, обработки гидроакустических и тепловизионных сигналов.
+
+                    Для обнаружения и уничтожения летательных аппаратов служили комплексы, состоящие из радиолокаторов, управляющих вычислительных машин и ракетных установок. В области военного морского приборостроения системы цифровой обработки использовались, в частности, для анализа гидроакустических сигналов, определения шумовых паспортов кораблей на основе спектральных характеристик, вычисления корреляционных зависимостей паспорта и реального гидроакустического сигнала.</p>
                 </div>
                 <div class="button"><a href="#">LEARN MORE</a></div>
               </div>
             </div>
-              <div class="bottom__data ">
+            <div class="main_theory d-flex flex-column justify-content-between wow animate__fadeInRight" data-wow-duration="3s">
+              <p class='headslider'>Основные термины Обработки сигналов</p>
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="./images/digitfilter.PNG" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Линейный фильтр — динамическая система, применяющая некий линейный оператор ко входному сигналу для выделения или подавления определённых частот сигнала и других функций по обработке входного сигнала. Линейные фильтры широко применяются в электронике, цифровой обработке сигналов и изображений, в оптике, теории управления и других областях. </h5>
+                      <p>...</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/spectre2.PNG" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Спектральный анализ — совокупность методов качественного и количественного определения состава объекта, основанная на изучении спектров взаимодействия материи с излучением, включая спектры электромагнитного излучения, акустических волн, распределения по массам и энергиям элементарных частиц и др</h5>
+                      <p>...</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/overlapadd.PNG" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Секционная свёртка — метод вычисления свёртки, используемый, когда количество элементов одной из входных последовательностей во много раз больше, чем количество элементов другой. Основные методы вычисления секционной свёртки — метод перекрытия с суммированием (англ. Overlap–add method) и метод перекрытия с накоплением (англ. Overlap–save method). </h5>
+                      <p>...</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/adaptivefilter.PNG" alt="Third slide">
+                    <div class=" d-none d-md-block">
+                      <h5>Адаптивный фильтр — система с линейным фильтром, имеющим передаточную функцию, контролируемую переменными параметрами и средствами для установки этих параметров согласно оптимизационному алгоритму. Ввиду сложности оптимизационных алгоритмов почти все адаптивные фильтры являются цифровыми фильтрами.</h5>
+                      <p>...</p>
+                    </div>
+                  </div>
+               
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <i class="carousel-control-prev-icon fas fa-arrow-circle-left" aria-hidden="true"></i>
+                 
+                 
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                   <i class="carousel-control-next-icon fas fa-arrow-circle-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+              <div class="bottom__data wow animate__SlideInLeft" data-wow-duration="3s">
+
+
+                Где применяется обработка сигналов
           <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
-              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Медицина</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">About</a>
+              <a class="nav-link" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">Цифровая фотография</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="expertise-tab" data-toggle="tab" href="#expertise" role="tab" aria-controls="expertise" aria-selected="false">Expertise</a>
+              <a class="nav-link" id="expertise-tab" data-toggle="tab" href="#expertise" role="tab" aria-controls="expertise" aria-selected="false">Умный дом</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="people-tab" data-toggle="tab" href="#people" role="tab" aria-controls="people" aria-selected="false">People Say</a>
+              <a class="nav-link" id="people-tab" data-toggle="tab" href="#people" role="tab" aria-controls="people" aria-selected="false">Аксесуары</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Комуникации</a>
             </li>
           </ul>
           <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><p class="tabData">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corporis, tempora molestiae obcaecati iusto distinctio. Dolores iure, vero blanditiis, atque libero deserunt fuga voluptates praesentium eius nesciunt at nostrum ducimus voluptas sit, numquam iusto facere?</p></div>
-            <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab"><p class="tabData">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corporis, tempora molestiae obcaecati iusto distinctio. </p></div>
-            <div class="tab-pane fade" id="expertise" role="tabpanel" aria-labelledby="expertise-tab"><p class="tabData">distinctio. Dolores iure, vero blanditiis, atque libero deserunt fuga voluptates praesentium eius nesciunt at nostrum ducimus voluptas sit, numquam iusto facere?</p></div>
-            <div class="tab-pane fade" id="people" role="tabpanel" aria-labelledby="people-tab"><p class="tabData">voluptates praesentium eius nesciunt at nostrum ducimus voluptas sit, numquam iusto facere?</p></div>
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"><p class="tabData">Lorem ipsum dolor sit amet consectetur adipisicing elit. nostrum ducimus voluptas sit, numquam iusto facere?</p></div>
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><p class="tabData">Достижения в медицинской визуализации позволяют врачам диагностировать заболевания до их распространения, не заглядывая физически внутрь пациента. Помимо этого она играет важную роль в проэтировании самих устройств визуализации</p></div>
+            <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab"><p class="tabData">Для создания фото механизм обработки изображения камеры должен выполнять вычисления данных, связанные с точностью цвета, детализацией изображения и производительностью съемки.Обработка сигналов. помогает качественно определить цвет и детализацию обьектов</p></div>
+            <div class="tab-pane fade" id="expertise" role="tabpanel" aria-labelledby="expertise-tab"><p class="tabData">Современные устройства умного дома а также часы и сматфоны в первую очередь работают через управление голосом, для этого человеческий голос обрабатывается по технологиям обработки сигналов которые позволяет передвать его между устройствами быстро и без потерь в производительности</p></div>
+            <div class="tab-pane fade" id="people" role="tabpanel" aria-labelledby="people-tab"><p class="tabData">Для передачи данных между устройствами такими как например смартфон и смарт часы используеются технологии обработки сигналов</p></div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"><p class="tabData">Технологии передачи силналов и техники их обработки позволяют быстро передавать большие обьёмы информации без заметной потери а качестве, а благодаря свёртке эти данные возможно сжимать и тем самым эномить память</p></div>
           </div>
         </div>
         </div>
@@ -126,111 +159,111 @@
         
        
         </div>
-        <div class="purpleline3">
+        <div class="purpleline3 wow animate__fadeInUp" data-wow-duration="1.5s">
           <div class="container">
             <div class="header3 d-flex flex-column justify-content-end align-items-center">
-              <h3>MEET OUR AMAZING TEAM</h3>
-              <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+              <h3>Учёные повлиявшие на развитие отрасли</h3>
+              
               <img src="./images/line-grey.png" alt="">
             </div>
             <div class="line_wblocks d-flex flex-row justify-content-between align-items-center">
-              <div class="block_wwhite col-xl-3 col-sm-6">
-                <div class="white_square"></div>
+              <div class="block_wwhite wow animate__flash col-xl-3 col-sm-6">
+                <div class="white_square"><img src="./images/kotel.PNG" alt=""></div>
                 <div class="text_white">
-                <h5>Lorem, ipsum dolor.</h5>
-                <p>Lorem, ipsum dolor.</p>
+                <h5>Котельников</h5>
+                <p>Владимир</p>
               </div>
               <div class="watch_closure">
-                <a href="#" class="watch_closure_text">Watch</a>
+                <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2,_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87" class="watch_closure_text">Узнать больше</a>
               </div>
             </div>
               <div class="block_wwhite col-sm-6 col-xl-3">
-                <div class="white_square"></div>
+                <div class="white_square"><img src="./images/nikewist.PNG" alt=""></div>
                 <div class="text_white">
-                <h5>Lorem, ipsum dolor.</h5>
-                  <p>Lorem, ipsum dolor.</p>
+                <h5>Найквист</h5>
+                  <p>Гарри</p>
                 </div>
                 <div class="watch_closure">
-                  <a href="#" class="watch_closure_text">Watch</a>
+                  <a href='https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B9%D0%BA%D0%B2%D0%B8%D1%81%D1%82,_%D0%93%D0%B0%D1%80%D1%80%D0%B8' class="watch_closure_text">Узнать больше</a>
                 </div>
               </div>
               <div class="block_wwhite col-xl-3 col-sm-6"
-              ><div class="white_square"></div>
+              ><div class="white_square"><img src="./images/shenon.PNG" alt=""></div>
               <div class="text_white">
-              <h5>Lorem, ipsum dolor.</h5>
-              <p>Lorem, ipsum dolor.</p>
+              <h5>Клод</h5>
+              <p>Шенон</p>
             </div>
             <div class="watch_closure">
-              <a href="#" class="watch_closure_text">Watch</a>
+              <a href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B5%D0%BD%D0%BD%D0%BE%D0%BD,_%D0%9A%D0%BB%D0%BE%D0%B4" class="watch_closure_text">Узнать больше</a>
             </div>
             </div>
               <div class="block_wwhite col-xl-3 col-sm-6">
-                <div class="white_square"></div>
+                <div class="white_square"><img src="./images/gaus.PNG" alt=""></div>
                 <div class="text_white">
-                <h5>Lorem, ipsum dolor.</h5>
-                <p>Lorem, ipsum dolor.</p>
+                <h5>Гаусс</h5>
+                <p>Карл</p>
               </div>
               <div class="watch_closure">
-                <a href="#" class="watch_closure_text">Watch</a>
+                <a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D1%83%D1%81%D1%81,_%D0%9A%D0%B0%D1%80%D0%BB_%D0%A4%D1%80%D0%B8%D0%B4%D1%80%D0%B8%D1%85" class="watch_closure_text">Узнать больше</a>
               </div>
               </div>
             </div>
             <div class="footer_purple3 d-flex flex-column justify-content-center align-items-center">
-              <p>Become part of our dream team, let’s join us ! </p>
-              <div class="button"><a href="#">WE ARE HIRING</a></div> 
+              <p>Стать частью общества людей разбирающихся в обработке сигналов</p>
+              <div class="button jsbutton"><a href="#">Хочу научится</a></div> 
             </div>
           </div>
         </div>
-        <div class="white_line3">
+        <div class="white_line3  wow animate__fadeInBottomLeft" data-wow-duration="1.5s">
           <div class="container">
             <div class="white_header3 d-flex row justify-content-between align-items-center">
-              <h3>OUR WORKS</h3>
-              <a href="#">See All Project in dribbble <img src="./images/указатель.png" alt=""></a>
+              <h3>Примеры в повседневной жизни</h3>
+              <a href="#">Увидеть все проэкты <img src="./images/указатель.png" alt=""></a>
             </div>
           </div>
           <div class="our_works d-flex row justify-content-around
           align-items-center">
-            <div class="our_work d-flex"><img src="./images/stroika.jpg" alt=""></div>
-            <div class="our_work  d-flex"><img  src="./images/stroyka-1.jpg" alt=""></div>
-            <div class="our_work  d-flex"><img  src="./images/unnamed.jpg" alt=""></div>
+            <div class="our_work d-flex"><img src="./images/Nikon_D750_01.jpg" alt=""></div>
+            <div class="our_work  d-flex"><img  src="./images/apple-watch-5-review-part2.jpg" alt=""></div>
+            <div class="our_work  d-flex"><img  src="./images/мрт.jpg" alt=""></div>
         </div>
         <div class="container">
           <div class="footer_white3 d-flex justify-content-center align-items-center">
-            <div class="button"><a href="">LOAD MORE</a></div>
+            <div class="button"><a href="https://ru.wikipedia.org/wiki/%D0%A6%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0_%D1%81%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB%D0%BE%D0%B2">Увидеть ещё</a></div>
           </div>
         </div>
       </div>
     </main>
-    <div class="container container_map">
+    <div class="container container_map wow animate__fadeInBottomRight" data-wow-duration="1.5s">
       <div class="map_tracking d-flex flex-column justify-content-around align-items-center">
         <div class="pretty__map_nure">
         <iframe class="map__nure" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2155.901800989474!2d36.22718385342402!3d50.01484583459902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a1243f9e69d1%3A0x6daed05394f03251!2z0KXQsNGA0YzQutC-0LLRgdC60LjQuSDQvdCw0YbQuNC-0L3QsNC70YzQvdGL0Lkg0YPQvdC40LLQtdGA0YHQuNGC0LXRgiDRgNCw0LTQuNC-0Y3Qu9C10LrRgtGA0L7QvdC40LrQuA!5e0!3m2!1sru!2sua!4v1589497545526!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         <div class="map__nure_overlay d-flex justify-content-center align-items-center">
-          <p class="map__nure_overlay_text">Find Us</p>
+          <p class="map__nure_overlay_text">Где можно ознакомится</p>
         </div>
       </div>
-        <p class="map_nure_text">Lets Keep in touch</p>
+        <p class="map_nure_text"> <a href='https://nure.ua/' style='cursor:pointer; text-decoration: none; color:rgb(0, 224, 208)'>Нажмите для перехода на сайт</a></p>
       </div>
     </div>
     <footer>
-      <div class="container">
-        <div class="center_footer d-flex flex-row justify-content-between align-items-center">
+      <div class="container wow animate__fadeInUp" data-wow-duration="1.5s">
+        <div class="center_footer d-flex flex-row justify-content-between align-items-center ">
           <div class="footer_last d-flex flex-row ">
               <div class="footer-col1 col-xl-4 d-flex flex-column justify-content-between align-items-start">
-                <a href="#"><i class="fab fa-artstation"></i> </a>
-                <p>lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
+                <<a href="#"><i class="fas fa-wave-square wow animate__fadeInLeft" data-wow-duration="3s"></i></a>
+                <p>© Кафедра медиаинженерии и информационных радиоэлектронных систем, 2001 - 2021.</p>
                 <div class="right">
-                    <a href="">HELP</a>
-                    <a href="">TERMS & CONDITION</a>
-                    <a href="">PRIVACY</a></div>
+                    <a href="http://res.nure.ua/ru/abiturientu">Абитуриенту</a>
+                    <a href="http://res.nure.ua/ru/o-nas">О Кафедре</a>
+                    <a href="http://res.nure.ua/ru/staff"></a>Сотрудники</div>
               </div>
               <div class="footer-col2 col-xl-4 d-flex flex-column justify-content-between align-items-start">
-                <h3>OUR STUDIO</h3>
-                <a href="#"><img src="./images/map.png" alt="">lorem lorem lorem</a>
-                    <a href="#"><img src="./images/phone351.png" alt="">lorem lorem</a>
+                <h3>Каферда</h3>
+                <a href="http://res.nure.ua/ru/"><img src="./images/map.png" alt="">Сайт кафедры</a>
+                    <a href="https://www.instagram.com/kotiki_mires/"><img src="./images/instasmall.png" alt="">Инстаграм Кафедры</a>
               </div>
               <div class="footer-col3 col-xl-4 d-flex flex-column justify-content-between align-items-start">
-                <h3>STAY IN TOUCH</h3>
+                <h3>Поддерживать Связь</h3>
                 <form class="form-inline">
                     <div class="form-group mx-sm-3 mb-2">
                       <label for="inputPassword2" class="sr-only">Password</label>
@@ -239,14 +272,15 @@
                     <button type="submit" class="btn btn-primary mb-2"><img src="./images/plane.png" alt=""></button>
                   </form>
                   <div class="links d-flex flex-row justify-content-around align-items-center">
-                  <i class="fab fa-facebook-square"></i>
+                    <a href="https://www.facebook.com/meires.nure.ua/"> <i class="fab fa-facebook-square"></i></a>
                   <i class="fab fa-twitter-square"></i>
-                  <i class="fab fa-instagram"></i>
+                  
                   <i class="fab fa-google-plus"></i>
-                  <i class="fab fa-youtube"></i>
+                  <a href="https://www.youtube.com/channel/UCye5GmshW_J6XZGhuyvqBMQ"><i class="fab fa-youtube"></i></a>
+                  
                 </div>
                 <div class="left d-flex ">
-                    <p>lorem lorem lorem</p>
+                    <p>Дизайн разработан студентом Бек Вадим</p>
                   </div>
               </div>
             </div>
